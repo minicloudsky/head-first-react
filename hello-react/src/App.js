@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+// import Content,{Footer} from './index'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <h2>Hello React</h2>
+        <div id="title"></div>
     </div>
   );
 }
